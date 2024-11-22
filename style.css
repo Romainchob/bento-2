@@ -6,13 +6,125 @@ body{
 
 .bloc1{
     display: flex;
-width: 526px;
-height: 382px;
-padding: 21px 26px;
-flex-direction: column;
-justify-content: flex-end;
-align-items: flex-start;
-gap: 10px;
-flex-shrink: 0;
+    margin-top: 120px;
+    margin-left: 160px;
+    width: 526px;
+    padding: 21px 26px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #000;
+    background-image: url(https://s3-alpha-sig.figma.com/img/da31/bef8/177bfbf54e492e1c7d8d8d363bf4e635?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bmskG4~Jca5BjscPTNKbFQcNM1mrqkc50fFO4HEkPTKdouEDmGBzMhzWmsE3s1j4F6rIDrFgATEtSIErSr8mQWAiHYV9YhYq7HIGi6ewtZFc1Y9m4gyOdUBQBeA6tg9hPdKtUEyqBSLipqZBgN8zjTaAMnsxBtA20GSwEP9cB83XH63uqkT1QrAGajlfsL5-EJL-pYxlWLoVBtRFBapDL7cbFFW0XN0rNw6kud8nzfDCNhTRGSO37YMCe3mNJDhxnMao0yP75kro2~dw819wf~LKVeYk6udvxH~wrdx~eYCUkyeaZFxocBy~aYoVz2hCKLTSr4M5JZFVhouowQPbJA__);
 }
 
+.titre2block1{
+    color: #FFF;
+    font-family: "Albert Sans",sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    height: 60px;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titre1block1{
+    color: #FFF;
+    font-family: "Albert Sans",sans-serif; 
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    height: 31px;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    display: flex;
+    height: 52px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    background: #000;
+    color: #FFF;
+    font-family: "Albert Sans",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+
+p{
+    font-family: "Albert Sans",sans-serif;
+    color: #FFF;
+}
+
+.blockcolo1{
+    display: flex;
+    width: 125px;;
+    padding: 127px 0px 126px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid #1B1B1B;
+    background: #1B1B1B;
+}
+
+.texte{
+    color: #FFF;
+    font-family: "Albert Sans",sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+}
+
+.blockcolo2{
+    display: flex;
+    width: 125px;;
+    padding: 127px 0px 126px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid #1B1B1B;
+    background: #ffffff;
+}
+
+.texte2{
+    color: #1B1B1B;
+    font-family: "Albert Sans",sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+}
+
+.colomgl{
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+}
